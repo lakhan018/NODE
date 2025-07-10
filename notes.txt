@@ -1,0 +1,32 @@
+what's node
+    just a run time enviroment
+how node evaluate our code ?
+    REPL-->read eval print loop
+    CLI
+REPL--> terminal --> code --> eg:const a=2;
+    --> closed by ctrl c
+CLI--> VS code
+
+
+
+
+JSON --> java script object notation
+JSON is a data format that is easy to read and write for humans and machines.
+
+
+compaines like --> netflix uses node
+not used for ml
+"event driven"
+
+--> scalable (handler large amount of user )
+*break
+*save filename
+*load filename
+
+npm --> node package manager
+
+
+modules -->core
+        -->load
+        -->3rd party
+js is profesionaly called by ESC --> echma script
