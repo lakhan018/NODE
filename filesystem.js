@@ -34,3 +34,4 @@ console.log("Parsed JSON data:", jsparsed);
 const jsObject = { name: "lakhan", age: 20, city: "MH", country: "India" };
 const jsonString = JSON.stringify(jsObject);
 console.log("JSON string:", jsonString);
+// just checking
