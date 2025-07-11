@@ -29,4 +29,4 @@ npm --> node package manager
 modules -->core
         -->load
         -->3rd party
-js is profesionaly called by ESC --> echma script
+js is profesionaly called by ES6 --> echma script
