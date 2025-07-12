@@ -5,3 +5,5 @@ git add .
 git commit -m "message"
 git push
 <message>
+
+well this repo contains information lecture + unit wise wrt Collage so hope this will help to you guys 
