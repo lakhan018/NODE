@@ -1,8 +1,9 @@
 import {EventEmitter} from 'events';
 const  booking = new EventEmitter();
 /*
-// addlistners or . on both are correct to connect a listner
+// addlistners or .on both are correct to connect a listner
 // callback function are anonymous function
+
 booking.on('booked', (user,seat) => {
     console.log(`Booking confirmed for ${user} .seat type given below \n${seat}\n`);
 });
