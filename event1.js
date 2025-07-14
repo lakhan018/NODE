@@ -5,8 +5,7 @@ const  booking = new EventEmitter();
 // callback function are anonymous function
 
 booking.on('booked', (user,seat) => {
-    console.log(`Booking confirmed for ${user} .seat type given below \n${seat}\n`);
-});
+    console.log(`Booking confirmed for ${user} .seat type given below \n${seat}\n`); });
 booking.on(`cancel_tkt`, function(user) {
     console.log(`Booking canceled for ${user}`);
 });
@@ -27,6 +26,6 @@ calc.on('CGPA',(user,m1,m2,m3,m4,m5)=>{
     console.log(`${user}'s CGPA is ${cgpa}`);
 });
 calc.emit('CGPA','lakhan', 8, 7, 9, 6, 8);
-calc.emit('CGPA','ram', 8, 7, 9, 6, 8);
+// calc.emitonce('CGPA','ram', 8, 7, 9, 6, 8);
 calc.emit('CGPA','sham', 8, 7, 9, 6, 8);
 // register a event to calc for student
