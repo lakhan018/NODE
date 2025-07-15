@@ -1,16 +1,12 @@
 {
-  "name": "unique69",
+  "name": "factorial",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
   "license": "ISC",
-  "author": "",
+  "author": "dushantpariskar@gmail.com",
   "type": "commonjs",
-  "main": "server1.js",
+  "main": "fac.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "unique69": "^1.0.0"
   }
 }
