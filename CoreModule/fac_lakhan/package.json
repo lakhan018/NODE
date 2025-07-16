@@ -1,11 +1,11 @@
 {
-  "name": "factorial",
+  "name": "fac_lakhan",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "author": "dushantpariskar@gmail.com",
+  "author": "",
   "type": "commonjs",
-  "main": "fac.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
