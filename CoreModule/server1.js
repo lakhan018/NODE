@@ -11,10 +11,6 @@ http.createServer((req,res)=>{
     res.end();
 }).listen(3000);
 
-
-
-
-
 // while setting a cookie we uses req
 // when have to display a msg we uses response
 
