@@ -7,8 +7,20 @@ var http=require("http");
 // http is module
 // http.createServer(req,res);
 http.createServer((req,res)=>{
-    res.write("hello node js");
-    res.end();
+    if(req.url=='/home'){
+        res.write("home")
+        console.log("home")
+    // res.end();
+} else if(req.url=='/end'){
+        res.write("home")
+        console.log("home")
+    // res.end();
+    }
+    else{
+res.write("hello node js")
+console.log("no page")
+res.end()
+}
 }).listen(3000);
 
 // while setting a cookie we uses req
