@@ -14,16 +14,17 @@ http
       console.log("home");
       res.end();
     } else if (req.url.startsWith("/end") ){
-      res.write("end");
-      console.log("end");
-      res.end();
-    } else {
+     function add(a,b){return a+b}
+     res.end(  `add two val ${add(3,4)}`)
+    }
+    else {
       res.write("hello node js");
       console.log("no page");
       res.end();
     }
   })
-  .listen(3000);
+  .listen(2001);
+
 
 // while setting a cookie we uses req
 // when have to display a msg we uses response
